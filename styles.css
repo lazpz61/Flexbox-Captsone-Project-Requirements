@@ -1,0 +1,50 @@
+body {
+    margin:0;
+}
+
+.container {
+    height: 100vh;
+    
+}
+.container > .navbar-wide-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-content:flex-start;
+    width: 100vw;
+    height: 50px;
+    background-color: rgb(45, 45, 88);
+    color: white;
+}
+.container > .navbar-wide-wrapper > .myNamebox {
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.container .navbar-wide-wrapper .links-wide-wrapper {
+    width: inherit;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: start;
+    align-items: center; 
+}
+
+.container .navbar-wide-wrapper .links-wide-wrapper .links-wide a{
+    text-decoration: none;
+    color: white;
+}
+
+.container .navbar-wide-wrapper .links-wide-wrapper .links-wide #two, #one {
+    flex-basis: 50%;
+}
+
+
+.container .navbar-wide-wrapper .links-wide-wrapper .links-wide #three {
+    margin-left: auto;
+
+
+}
+
+
+

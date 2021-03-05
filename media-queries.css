@@ -1,0 +1,10 @@
+@media (max-width: 500px) {
+
+    .container .navbar-wide .links-wide {
+        display:none;
+    }
+
+    .navbar-small .links-small {
+        display: inline-block   ;
+    }
+}
